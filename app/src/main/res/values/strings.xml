@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">gruut_application</string>
+    <string name="gruut_big">GRUUT</string>
+    <string name="network_big">NETWORKS</string>
 </resources>

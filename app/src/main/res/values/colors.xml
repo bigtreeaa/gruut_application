@@ -7,4 +7,40 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_50">#FFF7FFF3</color>
+    <color name="primary_100">#FFC3F3D1</color>
+    <color name="primary_200">#FF34d49b</color>
+    <color name="primary_300">#FF2ac48d</color>
+    <color name="primary_400">#FF26af7e</color>
+    <color name="primary_500">#FF219a6f</color>
+    <color name="primary_600">#FF1d8560</color>
+    <color name="primary_700">#FF187051</color>
+    <color name="primary_800">#FF145b42</color>
+    <color name="primary_900">#FF0A431A</color>
+
+    <color name="sky_blue_50">#FFEDF6FF</color>
+    <color name="sky_blue_100">#FFD3E7FF</color>
+    <color name="sky_blue_200">#FFAFCFFF</color>
+    <color name="sky_blue_300">#FF87B0FF</color>
+    <color name="sky_blue_400">#FF638EFF</color>
+    <color name="sky_blue_500">#FF4B75E4</color>
+    <color name="sky_blue_600">#FF355DC6</color>
+    <color name="sky_blue_700">#FF2D4EA6</color>
+    <color name="sky_blue_800">#FF203E8C</color>
+    <color name="sky_blue_900">#FF18306D</color>
+
+    <color name="gray_50">#FFF3F3FC</color>
+    <color name="gray_100">#FFDFDFEB</color>
+    <color name="gray_200">#FFCCCCD7</color>
+    <color name="gray_300">#FFB2B2C1</color>
+    <color name="gray_400">#FF9696A6</color>
+    <color name="gray_500">#FF7B7B8C</color>
+    <color name="gray_600">#FF4F4F64</color>
+    <color name="gray_700">#FF343445</color>
+    <color name="gray_800">#FF1F1F2A</color>
+    <color name="gray_900">#FF0A0A0E</color>
+
+
+
 </resources>

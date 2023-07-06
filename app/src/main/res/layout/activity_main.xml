@@ -6,13 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/start_logo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/gruut_logo"
+        android:layout_marginTop="150dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/main_gruut"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/gruut_big"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/gray_700"
+        app:layout_constraintTop_toBottomOf="@id/start_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/network_big"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="@color/gray_600"
+        app:layout_constraintTop_toBottomOf="@id/main_gruut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
