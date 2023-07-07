@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">gruut_application</string>
+    <string name="blank"> </string>
+    <string name="colon">:</string>
+    <string name="check">Check</string>
+    <string name="confirm">Confirm</string>
+
     <string name="gruut_big">GRUUT</string>
     <string name="network_big">NETWORKS</string>
+
+    <string name="signup">Sign up</string>
+    <string name="email_id">Email (ID)</string>
+    <string name="email_example">sample@gmail.com</string>
+    <string name="passwd">Password</string>
+    <string name="confirm_passwd">Confirm password</string>
+    <string name="passwd_example">Y0urPa55wor6!</string>
+    <string name="passwd_match">Passwords match.</string>
+    <string name="passwd_unmatch">Passwords do not match.</string>
+    <string name="gen_account">Generate coin account!</string>
 </resources>

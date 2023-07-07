@@ -6,4 +6,126 @@
     android:layout_height="match_parent"
     tools:context=".SignupActivity">
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/signup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/signup"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="@color/primary_50"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/signup_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/email_id"
+                android:textSize="16sp"/>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/input_email"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_example"
+                android:inputType="textEmailAddress"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/passwd"
+                android:textSize="16sp"/>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/input_passwd"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/passwd_example"
+                android:inputType="textPassword"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_passwd"
+                android:textSize="16sp"/>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/input_confirm_passwd"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/passwd_example"
+                android:inputType="textPassword"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/passwd_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/passwd_unmatch"
+                android:textSize="14sp"
+                android:textColor="@color/gray_500"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/gen_account"
+                    android:textSize="16sp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnGenAccount"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@color/primary_100"
+                    android:text="@string/check"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/colon"
+                android:textSize="16sp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignup"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/primary_200"
+            android:text="@string/signup"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
