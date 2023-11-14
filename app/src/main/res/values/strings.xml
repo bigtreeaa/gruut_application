@@ -8,13 +8,27 @@
     <string name="gruut_big">GRUUT</string>
     <string name="network_big">NETWORKS</string>
 
+    <string name="login">Login</string>
+    <string name="login_to_signup1">Don\'t you have an account?</string>
+    <string name="login_to_signup2"><u>SIGN UP</u></string>
+
     <string name="signup">Sign up</string>
     <string name="email_id">Email (ID)</string>
     <string name="email_example">sample@gmail.com</string>
+    <string name="email_valid">valid email address</string>
+    <string name="email_invalid">use valid email address</string>
     <string name="passwd">Password</string>
     <string name="confirm_passwd">Confirm password</string>
     <string name="passwd_example">Y0urPa55wor6!</string>
-    <string name="passwd_match">Passwords match.</string>
-    <string name="passwd_unmatch">Passwords do not match.</string>
+    <string name="passwd_match">Passwords match</string>
+    <string name="passwd_unmatch">Passwords do not match</string>
     <string name="gen_account">Generate coin account!</string>
+
+    <string name="gen_utxo">Generate a transaction</string>
+    <string name="gen_utxo_info">Add few coins to your wallet :)</string>
+    <string name="coin_input">Coin :</string>
+    <string name="coin_hint">Enter the number of coins.</string>
+    <string name="generate">Generate</string>
+    <string name="utxo_generated">A new transaction is created</string>
+    <string name="go_main_page">Go Main Page</string>
 </resources>

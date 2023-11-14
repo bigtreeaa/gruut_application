@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.serialization' version"1.5.0"
 }
 
 android {
@@ -42,6 +43,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     // bitcoinj
     implementation 'org.bitcoinj:bitcoinj-core:0.16.2'
+    // json serialize
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0"
     // json serialize
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0"
     // server connection

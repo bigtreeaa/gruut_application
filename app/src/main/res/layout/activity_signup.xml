@@ -22,7 +22,7 @@
         android:layout_width="350dp"
         android:layout_height="500dp"
         android:paddingTop="50dp"
-        android:paddingBottom="50dp"
+        android:paddingBottom="20dp"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
         android:background="@color/primary_50"
@@ -43,11 +43,18 @@
                 android:text="@string/email_id"
                 android:textSize="16sp"/>
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/input_email"
+                android:id="@+id/input_email_signup"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/email_example"
                 android:inputType="textEmailAddress"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/email_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_invalid"
+                android:textSize="14sp"
+                android:textColor="@color/gray_500"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -61,7 +68,7 @@
                 android:text="@string/passwd"
                 android:textSize="16sp"/>
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/input_passwd"
+                android:id="@+id/input_passwd_signup"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/passwd_example"
@@ -111,15 +118,19 @@
                     android:text="@string/check"/>
             </androidx.appcompat.widget.LinearLayoutCompat>
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/account_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
                 android:text="@string/colon"
-                android:textSize="16sp"/>
+                android:textSize="16sp"
+                android:textStyle="bold"/>
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSignup"
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@color/primary_200"
